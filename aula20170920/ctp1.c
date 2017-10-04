@@ -7,7 +7,7 @@ int main()
 {
 	char frase[N];
 	int i;
-	printf("Entre com ma frase:");
+	printf("Entre com uma frase:\n");
 	fgets(frase,N,stdin);
 	i=0;
 	for(i=0;frase[i];i++)
