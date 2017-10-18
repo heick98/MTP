@@ -19,4 +19,5 @@
 	  	printf("multiplo de 7.\n");
 	  }
 	  return 0;
+	  system ("pause");
  }

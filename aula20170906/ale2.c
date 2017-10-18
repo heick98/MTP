@@ -1,12 +1,12 @@
 #include<stdio.h>
 int main ()
 {
-	int i,d,randmico,randmico2,soma,produto;
+	int i,d,randomico,randomico2,soma,produto;
 	i=0;
 	printf("digite um divisor do numero 8192: \n");
 	scanf("%d", &d);
 	if(8192%d==0)
-		i++;
+	i++;
 	randomico= 1328 + rand()%(1361-1328);
 	printf("qual a soma do numero %d com 101 ?\n", randomico);
 	scanf("%d", soma);
