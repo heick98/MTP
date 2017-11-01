@@ -2,11 +2,11 @@
 
 int main()
 {
-	int i, n, fat;
-	scanf("%d", &n);
+	long long int i, n, fat;
+	scanf("%lld", &n);
 	fat=1;
 	for(i=1;i<=n;i++)
 	fat=fat*i;
-	printf("%d", fat);
+	printf("%lld", fat);
 	return 0;
 }

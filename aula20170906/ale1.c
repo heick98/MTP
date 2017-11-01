@@ -1,23 +1,16 @@
 #include <stdio.h>
- int main ()
- {
- 	int n;
- 	printf("entre com um número: ");
- 	scanf("%d", &n);
- 	if(n%2)
- 	{
- 		printf("numero impar!\n");
- 		if(n%5==0)
- 		printf("multiplo de 5.\n");
-	}
-	  else
-	  {
-	  	printf("numero par!\n");
-	  	if(n%3==0) 
-	  	printf("multiplo de 3.\n");
-	  	if(n%7==0)
-	  	printf("multiplo de 7.\n");
-	  }
-	  return 0;
-	  system ("pause");
- }
+#include <stdlib.h>
+#include <time.h>
+
+int main()
+{
+	srand(time(0));
+	int x = rand()%100;
+	int menor = 101, maior = 293;
+	int y;
+	y = menor + rand()%(maior-menor+1);
+	printf("Entre 0 e 99: %d\n", x);
+	printf("Entre 101 e 293: %d\n", y);
+	return 0;
+}
+

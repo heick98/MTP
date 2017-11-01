@@ -6,7 +6,7 @@ int main()
 	int i;
 	float f_soma;
 	double inverso, n, duploinverso, d_soma;
-	printf("Entre com um número:");
+	printf("Entre com um numero:");
 	scanf("%lf", &n);
 	inverso=(1/n);
 	f_soma=0;

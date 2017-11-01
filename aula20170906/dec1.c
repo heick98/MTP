@@ -2,7 +2,7 @@
  int main ()
  {
  	int n;
- 	printf("entre com um número: ");
+ 	printf("entre com um numero: ");
  	scanf("%d", &n);
  	if(n%2)
  	{
@@ -13,10 +13,9 @@
 	  else
 	  {
 	  	printf("numero par!\n");
-	  	if(n%3==0) 
-	  	printf("multiplo de 3.\n");
-	  	if(n%7==0)
-	  	printf("multiplo de 7.\n");
+	  	if((n%3==0)||(n%7==0)) 
+	  	printf("multiplo de 3 ou 7.\n");
 	  }
 	  return 0;
  }
+

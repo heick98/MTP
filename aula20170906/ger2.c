@@ -3,19 +3,18 @@
 int main ()
 {
 	setlocale(LC_ALL,"Portuguese");
-	int n, i, j;
+	int n, i, s;
 	printf("digite um numero: ");
 	scanf("%d", &n);
-	j=1;
-	for(i=2;i<n/2;i++)
+	s=0;
+	for(i=1;i<n;i++)
 	{
 		if(n%i==0)
-		j=0;
+		s=s+i;
 	}
-	if(j==0)
-	printf(" não é primo");
+	if(s==n)
+	printf("é perfeito\n");
 	else
-	printf("primo");
+	printf("não é perfeito\n");
 	return 0;
 }
-

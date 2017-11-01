@@ -12,7 +12,7 @@ double complex fazcomplexo(double a, double b, char c)
 void mostracomplexo (double complex z, char c)
 {
 	if(c == 'r'||c=='R')
-	printf("%lf + I*%lf\n", creal(z), cimag(z));
+	printf("%lf + I*(%lf)\n", creal(z), cimag(z));
 	else
 	printf("%lf / %lf\n", cabs(z), carg(z));
 }
