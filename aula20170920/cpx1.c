@@ -1,6 +1,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<complex.h>
+#include<math.h>
 
 double complex fazcomplexo(double a, double b, char c)
 {

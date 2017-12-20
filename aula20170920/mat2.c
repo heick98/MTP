@@ -9,7 +9,7 @@ int main()
 	scanf("%f, %f", &b, &c);
 	printf("Entre com o valor do angulo formado por estes dois lados(em radiandos):\n");
 	scanf("%f", &A);
-	a = sqrt(pow(b,2)+pow(c,2)+2*b*c*(cos(A)));
+	a = sqrt(pow(b,2)+pow(c,2)-2*b*c*(cos(A)));
 	printf("O terceiro lado desse triangulo mede: %f  \n", a);
 	return EXIT_SUCCESS;
 }

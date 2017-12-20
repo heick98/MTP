@@ -4,8 +4,8 @@
 
 int main ()
 {
-	int i,d,randomico,randomico2,soma,produto;
-	i=0;
+	int i = 0, d, randomico, randomico2, soma, produto;
+	srand(time(0));
 	printf("digite um divisor do numero 8192: \n");
 	scanf("%d", &d);
 	if(8192%d==0)
@@ -17,7 +17,7 @@ int main ()
 		i++;
 	randomico2= rand()%100;
 	printf("quanto vale o produto entre d% e 3 ?", randomico2);
-	sacnf("%d", &produto);
+	scanf("%d", &produto);
 	if(produto==3*randomico2)
 	i++;
 	printf("\n Voce obteve %d pontos", i);
